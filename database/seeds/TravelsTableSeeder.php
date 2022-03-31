@@ -20,14 +20,14 @@ class TravelsTableSeeder extends Seeder
             // popolo dati del mio db da compilare
             $travel->city = 'Parigi';
             $travel->address = '2 bis Cité Bergère';
-            $travel->description = null;
+            $travel->description = 'Lorem Ipsum';
             $travel->type = 'Hotel B&B';
             $travel->departure = 'Mercoledì 20 giugno';
             $travel->arrivals = 'Giovedì 21 giugno';
-            $travel->price = 12345678;
+            $travel->price = 123456.78;
             $travel->departure_time = 0;
             $travel->arrivals_time = 0;
-            
+
             //salvo dentro il db i dati aggiunti
             $travel->save();
 
